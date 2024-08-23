@@ -78,6 +78,12 @@
       color: #23262f;
       background: transparent;
     }
+    button:hover {
+      background-color: blue;
+      color: aliceblue;
+      transition: all 0.2s linear;
+      scale: 1.03;
+    }
     .arrow_media {
       display: none;
     }

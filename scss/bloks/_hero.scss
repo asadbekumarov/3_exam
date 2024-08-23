@@ -46,6 +46,11 @@
             background: #3b71fe;
             cursor: pointer;
           }
+          button:hover {
+            background-color: #384e86;
+            transition: all 0.2s linear;
+            scale: 1.02;
+          }
         }
       }
       .card {
@@ -54,11 +59,9 @@
         left: 6%;
         .card_etim {
           max-width: 1100px;
-          // max-height: 07px;
           border-radius: 24px;
           background-color: white;
           box-shadow: 0px 40px 64px -32px #0f0f0f1a;
-
           .line {
             padding-left: 30px;
           }
@@ -98,6 +101,7 @@
               color: #e6e8ec;
               transition: all 0.2s linear;
               background-color: #040404;
+              scale: 1.02;
             }
           }
           .data {

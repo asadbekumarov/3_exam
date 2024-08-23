@@ -27,6 +27,12 @@
         border: none;
         color: #f4f5f6;
       }
+      button:hover {
+        background-color: blue;
+        color: aliceblue;
+        transition: all 0.2s linear;
+        scale: 1.03;
+      }
     }
     .amazing__cards {
       display: flex;
