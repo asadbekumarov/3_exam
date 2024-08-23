@@ -1,0 +1,30 @@
+.hero__section {
+  .hero__section__content {
+    background-image: url("../../Hero.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    .hero_title {
+      position: relative;
+
+      .hero_title_2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        flex-direction: column;
+      }
+      .card {
+        position: absolute;
+        top: 80%;
+        left: 6%;
+        .card_etim {
+          width: 1100px;
+          height: 307px;
+          background-color: white;
+        }
+      }
+    }
+  }
+}

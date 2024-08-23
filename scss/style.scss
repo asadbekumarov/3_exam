@@ -1,0 +1,48 @@
+@use "./bloks/header";
+@use "./bloks/hero";
+@use "./bloks/popular";
+@use "./bloks/rent";
+@use "./bloks/explore";
+@use "./bloks/amazing";
+@use "./bloks/brend";
+@use "./bloks/frequently.scss";
+@use "./bloks/recommended";
+@use "./bloks/footer";
+
+@font-face {
+  font-family: DM Sans;
+  src: url(../fonts/Dm_sans/static/DMSans-Regular.ttf);
+}
+@font-face {
+  font-family: Poppins;
+  src: url(../fonts/poppins/Poppins-Regular.ttf);
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+@font-face {
+  font-family: DM Sans;
+  src: url(../fonts/Dm_sans/static/DMSans-Regular.ttf);
+}
+@font-face {
+  font-family: Poppins;
+  src: url(../fonts/poppins/Poppins-Regular.ttf);
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+li {
+  list-style: none;
+}

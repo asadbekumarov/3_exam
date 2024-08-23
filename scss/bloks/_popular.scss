@@ -1,0 +1,107 @@
+.popular__section {
+  .popular__section__content {
+    .popular__title {
+      margin-top: 300px;
+      display: flex;
+      justify-content: space-between;
+      align-items: start;
+      h1 {
+        font-family: DM Sans;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 56px;
+        letter-spacing: -0.02em;
+        color: #23262f;
+      }
+      h3 {
+        font-family: Poppins;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 32px;
+        letter-spacing: -0.01em;
+        color: #777e90;
+      }
+      .arrow {
+        display: flex;
+        gap: 12px;
+      }
+      .left:hover {
+        padding: 8px;
+        border-radius: 50%;
+        border: 1px solid #777e90;
+      }
+      .right:hover {
+        padding: 8px;
+        border-radius: 50%;
+        border: 1px solid #777e90;
+      }
+    }
+    .popular-cards {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 32px;
+      overflow-x: scroll;
+      .popular__card {
+        h4 {
+          font-family: Poppins;
+          font-size: 24px;
+          font-weight: 600;
+          line-height: 32px;
+          color: #23262f;
+        }
+        p {
+          font-family: Poppins;
+          font-size: 12px;
+          font-weight: 400;
+          line-height: 20px;
+          color: #777e90;
+        }
+      }
+    }
+    button {
+      margin-top: 40px;
+      padding: 16px 16px 16px 24px;
+      border-radius: 90px;
+      border: 2px solid #e6e8ec90;
+      display: flex;
+      align-items: center;
+      font-family: DM Sans;
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 16px;
+      color: #23262f;
+      background: transparent;
+    }
+    .arrow_media {
+      display: none;
+    }
+  }
+}
+
+// RESPANSIVE
+
+@media (max-width: 523px) {
+  .popular__title {
+    span {
+      h1 {
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 48px;
+        letter-spacing: -0.01em;
+      }
+    }
+    .arrow {
+      img {
+        display: none;
+      }
+    }
+  }
+  .popular__section__content {
+    .arrow_media {
+      margin-top: 40px;
+      gap: 10px;
+      display: flex !important;
+    }
+  }
+}
