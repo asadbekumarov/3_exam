@@ -5,15 +5,16 @@
     background-position: center;
     background-size: cover;
     height: 100vh;
+    border-radius: 24px;
     .hero_title {
       position: relative;
-
       .hero_title_2 {
         display: flex;
         justify-content: center;
         align-items: center;
         height: 100vh;
         flex-direction: column;
+        flex-wrap: wrap;
         h1 {
           font-family: DM Sans;
           font-size: 96px;
@@ -52,8 +53,8 @@
         top: 80%;
         left: 6%;
         .card_etim {
-          width: 1100px;
-          height: 307px;
+          max-width: 1100px;
+          // max-height: 07px;
           border-radius: 24px;
           background-color: white;
           box-shadow: 0px 40px 64px -32px #0f0f0f1a;
@@ -104,7 +105,33 @@
             display: flex;
             justify-content: space-between;
             align-items: start;
-            gap: 12px;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 52px;
+            .data_tue {
+              // padding: 12px 24px;
+              display: flex;
+              justify-content: space-between;
+              align-items: start;
+              // flex-wrap: wrap;
+              gap: 52px;
+              .location {
+                h3 {
+                  font-family: Poppins;
+                  font-size: 24px;
+                  font-weight: 600;
+                  line-height: 32px;
+                  color: #23262f;
+                }
+                p {
+                  font-family: Poppins;
+                  font-size: 16px;
+                  font-weight: 400;
+                  line-height: 24px;
+                  color: #777e90;
+                }
+              }
+            }
             .location {
               h3 {
                 font-family: Poppins;
@@ -129,6 +156,27 @@
               border: none;
               background-color: #3b71fe;
               cursor: pointer;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+// RESPANSIVE
+@media (max-width: 1190px) {
+  .hero__section {
+    .hero__section__content {
+      .hero_title {
+        .card {
+          .card_etim {
+            .data {
+              display: flex;
+              justify-content: center;
+              .data_tue {
+                display: none;
+              }
             }
           }
         }
