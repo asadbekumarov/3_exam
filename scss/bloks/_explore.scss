@@ -69,3 +69,9 @@
     }
   }
 }
+@media (max-width: 745px) {
+  .explore__cards {
+    display: flex;
+    justify-content: center !important;
+  }
+}
