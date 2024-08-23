@@ -14,6 +14,38 @@
         align-items: center;
         height: 100vh;
         flex-direction: column;
+        h1 {
+          font-family: DM Sans;
+          font-size: 96px;
+          font-weight: 700;
+          line-height: 96px;
+          letter-spacing: -0.02em;
+          color: #040404;
+        }
+        p {
+          margin-top: 16px;
+          font-family: Poppins;
+          font-size: 24px;
+          font-weight: 400;
+          line-height: 32px;
+          letter-spacing: -0.02em;
+          color: #23262f;
+        }
+        .btn {
+          button {
+            margin-top: 24px;
+            padding: 16px 24px;
+            border-radius: 90px;
+            font-family: DM Sans;
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 16px;
+            color: white;
+            border: none;
+            background: #3b71fe;
+            cursor: pointer;
+          }
+        }
       }
       .card {
         position: absolute;
@@ -22,7 +54,83 @@
         .card_etim {
           width: 1100px;
           height: 307px;
+          border-radius: 24px;
           background-color: white;
+          box-shadow: 0px 40px 64px -32px #0f0f0f1a;
+
+          .line {
+            padding-left: 30px;
+          }
+          ul {
+            padding-top: 40px;
+            padding-left: 40px;
+            display: flex;
+            gap: 50px;
+            li {
+              margin-bottom: 33px;
+              font-family: DM Sans;
+              font-size: 14px;
+              font-weight: 700;
+              line-height: 16px;
+              color: #777e90;
+              cursor: pointer;
+            }
+            li:hover {
+              color: #040404;
+            }
+          }
+          .card__btn {
+            padding: 12px 26px;
+            display: flex;
+            gap: 16px;
+            button {
+              border-radius: 90px;
+              padding: 12px 16px;
+              border: 2px solid #e6e8ec;
+              background: transparent;
+              font-family: DM Sans;
+              font-size: 14px;
+              font-weight: 700;
+              line-height: 16px;
+            }
+            button:hover {
+              color: #e6e8ec;
+              transition: all 0.2s linear;
+              background-color: #040404;
+            }
+          }
+          .data {
+            padding: 12px 24px;
+            display: flex;
+            justify-content: space-between;
+            align-items: start;
+            gap: 12px;
+            .location {
+              h3 {
+                font-family: Poppins;
+                font-size: 24px;
+                font-weight: 600;
+                line-height: 32px;
+                color: #23262f;
+              }
+              p {
+                font-family: Poppins;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 24px;
+                color: #777e90;
+              }
+            }
+            button {
+              padding: 20px;
+              width: 64px;
+              height: 64px;
+              border-radius: 50%;
+              border: none;
+              background-color: #3b71fe;
+              cursor: pointer;
+            }
+          }
         }
       }
     }
